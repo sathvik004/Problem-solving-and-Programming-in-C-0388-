@@ -1,16 +1,16 @@
 #include<stdio.h>
 main()
 {
-	int year;
-	printf("Enter the year");
-	scanf("%d",&year);
-	if(year/4)
+	int num;
+	printf("Enter the Number");
+	scanf("%d",&num);
+	if(num/5 && num/11)
 	{
-	printf("Given year is Leap year");
+	printf("Given Number is divisible by 5 and 11");
     }
     else
     {
-    printf("Given year is not Leap year");	
+    printf("Given Number is not divisible by 5 and 11");	
 	}
 	return 0;
 	}
