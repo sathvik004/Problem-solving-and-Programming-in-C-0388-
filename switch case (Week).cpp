@@ -19,13 +19,13 @@ int main()
 	printf("Thursday");
 	break;
 	case 5:
-	printf("Thursday");
+	printf("Friday");
 	break;
 	case 6:
-	printf("Thursday");
+	printf("Saturday");
 	break;
 	case 7:
-	printf("Thursday");
+	printf("Sunday");
 	break;
 	default:
 		printf("Invalid");
