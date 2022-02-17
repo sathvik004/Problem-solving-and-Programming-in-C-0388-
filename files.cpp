@@ -9,6 +9,6 @@ void main()
 	scanf("%d",&i);
 	printf("\nEnter your name:");
 	scanf("%s",&name);
-	fprintf("%d\n%s",i,name);
+	fprintf(fp,"%d\n%s",i,name);
 	fclose(fp);
 }
