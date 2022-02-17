@@ -13,9 +13,9 @@ void main()
 	scanf("%d",&r);
 	printf("Enter your course:");
 	scanf("%s",&cr);
-	fprintf("%d",i);
-	fprintf("%s",name);
-	fprintf("%d",r);
-	fprintf("%s",cr);
+	fprintf(fp,"%d",i);
+	fprintf(fp,"%s",name);
+	fprintf(fp,"%d",r);
+	fprintf(fp,"%s",cr);
 	fclose(fp);
 }
